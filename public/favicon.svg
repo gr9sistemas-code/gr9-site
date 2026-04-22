@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1A5F82"/>
+    </linearGradient>
+    <linearGradient id="nineGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60B8D4"/>
+      <stop offset="100%" stop-color="#1A5F82"/>
+    </linearGradient>
+  </defs>
+  <!-- Fundo -->
+  <rect width="48" height="48" rx="10" fill="url(#bgGrad)"/>
+  <!-- GR em branco pequeno -->
+  <text x="4" y="28" font-family="Arial Black, sans-serif" font-size="18" font-weight="900" font-style="italic" fill="white">GR</text>
+  <!-- Cápsula azul clara com 9 -->
+  <rect x="30" y="8" width="14" height="22" rx="5" fill="url(#nineGrad)"/>
+  <text x="37" y="26" font-family="Arial Black, sans-serif" font-size="16" font-weight="900" text-anchor="middle" fill="white">9</text>
+</svg>

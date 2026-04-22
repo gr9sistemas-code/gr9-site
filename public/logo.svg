@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 90" fill="none">
+  <defs>
+    <!-- Gradiente azul do "9" -->
+    <linearGradient id="grad9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60B8D4"/>
+      <stop offset="50%" stop-color="#2A7FA8"/>
+      <stop offset="100%" stop-color="#1A5F82"/>
+    </linearGradient>
+    <!-- Sombra suave no "9" -->
+    <filter id="shadow9" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#1A5F82" flood-opacity="0.4"/>
+    </filter>
+    <!-- Sombra sutil nas letras GR -->
+    <filter id="shadowGR" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="3" dy="3" stdDeviation="1" flood-color="#2563EB" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Letra G -->
+  <text
+    x="4"
+    y="68"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="72"
+    font-weight="900"
+    font-style="italic"
+    fill="white"
+    filter="url(#shadowGR)"
+  >G</text>
+
+  <!-- Letra R -->
+  <text
+    x="60"
+    y="68"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="72"
+    font-weight="900"
+    font-style="italic"
+    fill="white"
+    filter="url(#shadowGR)"
+  >R</text>
+
+  <!-- Cápsula do "9" com gradiente azul -->
+  <rect
+    x="135"
+    y="4"
+    width="72"
+    height="70"
+    rx="18"
+    ry="18"
+    fill="url(#grad9)"
+    filter="url(#shadow9)"
+  />
+  <!-- Brilho interno no topo da cápsula -->
+  <rect
+    x="138"
+    y="6"
+    width="66"
+    height="28"
+    rx="14"
+    ry="14"
+    fill="white"
+    fill-opacity="0.15"
+  />
+  <!-- Número 9 dentro da cápsula -->
+  <text
+    x="171"
+    y="62"
+    font-family="Arial Black, Impact, sans-serif"
+    font-size="58"
+    font-weight="900"
+    text-anchor="middle"
+    fill="white"
+  >9</text>
+
+  <!-- Texto "SISTEMAS INTELIGENTES" -->
+  <text
+    x="107"
+    y="86"
+    font-family="Arial, sans-serif"
+    font-size="11.5"
+    font-weight="400"
+    letter-spacing="3.5"
+    text-anchor="middle"
+    fill="#9CA3AF"
+  >SISTEMAS INTELIGENTES</text>
+</svg>
