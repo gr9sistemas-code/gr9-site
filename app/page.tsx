@@ -18,7 +18,7 @@ const diferenciais = [
       </svg>
     ),
     titulo: 'Especialização em Têxtil',
-    descricao: 'Desenvolvemos software com profundo conhecimento do setor. Nossa equipe entende a linguagem, os processos e as dores reais de confecções e distribuidoras têxteis.',
+    descricao: 'Software com profundo conhecimento do setor. Entendemos a linguagem, os processos e as dores reais do atacado têxtil.',
   },
   {
     icon: (
@@ -27,7 +27,7 @@ const diferenciais = [
       </svg>
     ),
     titulo: 'Suporte Próximo',
-    descricao: 'Não somos apenas fornecedores de software. Somos parceiros de negócio. Nosso time está disponível para tirar dúvidas, resolver problemas e apoiar sua equipe no dia a dia.',
+    descricao: 'Somos parceiros de negócio. Nosso time resolve dúvidas e apoia sua equipe no dia a dia.',
   },
   {
     icon: (
@@ -36,7 +36,7 @@ const diferenciais = [
       </svg>
     ),
     titulo: 'Tecnologia Moderna',
-    descricao: 'Investimos continuamente em atualização tecnológica para que nossos clientes tenham acesso às melhores ferramentas disponíveis no mercado, sem complexidade desnecessária.',
+    descricao: 'Investimos em atualização constante para que nossos clientes tenham as melhores ferramentas, sem complexidade desnecessária.',
   },
 ]
 
@@ -134,9 +134,7 @@ export default function HomePage() {
                 <span className="text-[#2563EB]">GR9 Loja</span>
               </h2>
               <p className="text-[#6E6E73] text-lg leading-relaxed">
-                Somos uma empresa de tecnologia com mais de três décadas de história. Aprendemos que
-                bom software não é o que tem mais funções. É o que resolve o problema certo, do jeito certo,
-                para quem precisa.
+                Três décadas de história nos ensinaram que bom software não é o que tem mais funções. É o que resolve o problema certo, para quem precisa.
               </p>
             </AnimatedSection>
 
@@ -169,9 +167,7 @@ export default function HomePage() {
                 ERP especializado<br />para o setor têxtil
               </h2>
               <p className="text-[#6E6E73] text-lg leading-relaxed mb-8">
-                O GR9 Loja foi desenvolvido para atender todas as etapas da operação têxtil: do controle
-                de estoque e medições específicas a relatórios gerenciais em tempo real. Um sistema completo,
-                simples de usar e construído para crescer junto com o seu negócio.
+                O GR9 Loja atende todas as etapas da operação têxtil: controle de estoque, romaneios, relatórios em tempo real. Simples de usar e construído para crescer com o negócio.
               </p>
               <Link
                 href="/erp"

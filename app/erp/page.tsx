@@ -15,7 +15,7 @@ const dores = [
   {
     icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 00-1.883 2.542l.857 6a2.25 2.25 0 002.227 1.932H19.05a2.25 2.25 0 002.227-1.932l.857-6a2.25 2.25 0 00-1.883-2.542m-16.5 0V6A2.25 2.25 0 016 3.75h3.879a1.5 1.5 0 011.06.44l2.122 2.12a1.5 1.5 0 001.06.44H18A2.25 2.25 0 0120.25 9v.776" /></svg>,
     titulo: 'Sistema genérico demais',
-    descricao: 'Paga caro por um ERP cheio de módulos que não têm nada a ver com atacado têxtil. Funcionalidades que nunca abre, complexidade que só atrapalha.',
+    descricao: 'ERP cheio de módulos sem relação com atacado têxtil. Funcionalidades que nunca abre, complexidade que só atrapalha.',
   },
   {
     icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h7.5c.621 0 1.125-.504 1.125-1.125m-9.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-7.5A1.125 1.125 0 0112 19.5m9.75-9.75c0 .621-.504 1.125-1.125 1.125H12m8.625-9.75c.621 0 1.125.504 1.125 1.125M21 12v1.5c0 .621-.504 1.125-1.125 1.125m-17.25 0h7.5m-7.5 0c-.621 0-1.125-.504-1.125-1.125v-1.5m0 0c0-.621.504-1.125 1.125-1.125M3.375 4.5h15a2.25 2.25 0 012.25 2.25v.75m-18.75 0h18.75" /></svg>,
@@ -30,7 +30,7 @@ const dores = [
   {
     icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z" /></svg>,
     titulo: 'Romaneio na mão',
-    descricao: 'Monta a venda sem ter um sistema que organize, calcule e gere o relatório automaticamente. Tempo perdido e margem para erro em todo pedido.',
+    descricao: 'Sem sistema para organizar, calcular e gerar o relatório. Tempo perdido e margem para erro em todo pedido.',
   },
   {
     icon: <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" /></svg>,
@@ -54,7 +54,7 @@ const funcionalidades = [
       </svg>
     ),
     titulo: 'Gestão de Estoque por Peça, Quilo ou Metro',
-    descricao: 'Cadastre e controle seus tecidos da forma que sua operação trabalha. O sistema se adapta à unidade que você usa, não o contrário.',
+    descricao: 'Controle seus tecidos na unidade que sua operação usa. O sistema se adapta, não o contrário.',
   },
   {
     wide: false,
@@ -98,7 +98,7 @@ const funcionalidades = [
       </svg>
     ),
     titulo: 'Entrada de Mercadoria',
-    descricao: 'Registre entradas rapidamente e mantenha o estoque sempre atualizado. Sem lançamentos duplicados, sem perda de histórico.',
+    descricao: 'Registre entradas e mantenha o estoque atualizado. Sem duplicações, sem perda de histórico.',
   },
   {
     wide: false,
@@ -128,7 +128,7 @@ const diferenciais = [
   {
     icon: <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-3.375c0-.621-.503-1.125-1.125-1.125h-.871M7.5 18.75v-3.375c0-.621.504-1.125 1.125-1.125h.872m5.007 0H9.497m5.007 0a7.454 7.454 0 01-.982-3.172M9.497 14.25a7.454 7.454 0 00.981-3.172M5.25 4.236c-.982.143-1.954.317-2.916.52A6.003 6.003 0 007.73 9.728M5.25 4.236V4.5c0 2.108.966 3.99 2.48 5.228M5.25 4.236V2.721C7.456 2.41 9.71 2.25 12 2.25c2.291 0 4.545.16 6.75.47v1.516M7.73 9.728a6.726 6.726 0 002.748 1.35m8.272-6.842V4.5c0 2.108-.966 3.99-2.48 5.228m2.48-5.492a46.32 46.32 0 012.916.52 6.003 6.003 0 01-5.395 4.972m0 0a6.726 6.726 0 01-2.749 1.35m0 0a6.772 6.772 0 01-3.044 0" /></svg>,
     titulo: 'Mais de 30 anos no mercado',
-    descricao: 'A GR9 existe há mais de três décadas desenvolvendo tecnologia. Não somos uma startup que descobriu o setor têxtil ontem. Entendemos a operação de dentro.',
+    descricao: 'Três décadas desenvolvendo tecnologia para o têxtil. Não somos uma startup que descobriu o setor ontem. Entendemos a operação de dentro.',
   },
   {
     icon: <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" /></svg>,
@@ -146,17 +146,17 @@ const passos = [
   {
     numero: '01',
     titulo: 'Demonstração gratuita',
-    descricao: 'Você conhece o sistema sem compromisso e vê se faz sentido para a sua operação.',
+    descricao: 'Conheça o sistema sem compromisso e veja se faz sentido para você.',
   },
   {
     numero: '02',
     titulo: 'Implantação guiada',
-    descricao: 'Nossa equipe configura tudo de acordo com a realidade da sua loja: estoque, produtos, usuários.',
+    descricao: 'Nossa equipe configura tudo de acordo com a realidade da sua loja.',
   },
   {
     numero: '03',
     titulo: 'Operação com suporte',
-    descricao: 'Você começa a usar com a segurança de ter alguém próximo para ajudar sempre que precisar.',
+    descricao: 'Comece a usar com a segurança de ter alguém próximo para ajudar.',
   },
 ]
 
@@ -316,7 +316,7 @@ export default function ErpPage() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#3B82F6]">operação</span>
               </h2>
               <p className="text-[#6E6E73] text-lg leading-relaxed mb-4">
-                Na GR9, a gente não acredita em sistema de tamanho único. Lojas de atacado têxtil têm uma linguagem própria: rolo, quilo, metro, romaneio, grade de tecido. Por isso desenvolvemos o GR9 Loja, um sistema que fala a sua língua e funciona de verdade no dia a dia.
+                No atacado têxtil cada operação tem sua linguagem: rolo, quilo, metro, romaneio. O GR9 Loja fala essa língua e funciona de verdade no dia a dia.
               </p>
               <p className="text-[#6E6E73] leading-relaxed mb-8">
                 Nada de módulos que você nunca abre. Acessa pelo navegador, qualquer computador da loja, e já está funcionando.
