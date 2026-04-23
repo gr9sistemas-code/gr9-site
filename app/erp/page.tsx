@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     pergunta: 'Qual é o custo?',
-    resposta: 'O modelo é taxa de implantação + mensalidade de manutenção. Os valores são definidos de acordo com a operação. Entre em contato para receber uma proposta.',
+    resposta: 'O modelo é taxa de implantação + licença de uso. Os valores são definidos de acordo com a operação. Entre em contato para receber uma proposta.',
   },
   {
     pergunta: 'O sistema é difícil de usar?',
