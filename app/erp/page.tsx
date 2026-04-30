@@ -191,7 +191,7 @@ export default function ErpPage() {
         <div className="absolute inset-0 bg-grid-pattern" />
         <div className="absolute top-0 left-0 right-0 h-[65%] bg-gradient-to-b from-amber-50/80 to-transparent" />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <AnimatedSection delay={0}>
@@ -202,7 +202,7 @@ export default function ErpPage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.1}>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-[#1D1D1F] leading-[0.95] mb-8">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-[#1D1D1F] leading-[0.95] mb-8">
                   O ERP feito<br />para quem<br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#F59E0B] to-[#FBBF24]">
                     vende tecido
@@ -217,7 +217,7 @@ export default function ErpPage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.3}>
-                <div className="flex flex-col sm:flex-row gap-3 mb-14">
+                <div className="flex flex-col sm:flex-row gap-3 mb-8 md:mb-14">
                   <a
                     href="#contato"
                     className="inline-flex items-center justify-center gap-2 bg-[#F59E0B] hover:bg-[#D97706] text-white font-bold px-7 py-3.5 rounded-full transition-all duration-200 hover:scale-105 shadow-lg shadow-amber-500/20 text-sm"
@@ -237,7 +237,7 @@ export default function ErpPage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.4}>
-                <div className="flex items-center gap-8 pt-8 border-t border-[#E5E5EA]">
+                <div className="flex items-center gap-4 sm:gap-8 pt-8 border-t border-[#E5E5EA]">
                   <div>
                     <p className="text-3xl font-black text-[#1D1D1F]">30+</p>
                     <p className="text-xs text-[#6E6E73] mt-0.5 font-medium uppercase tracking-wide">anos de mercado</p>
@@ -264,12 +264,12 @@ export default function ErpPage() {
       </section>
 
       {/* DORES */}
-      <section className="py-32 bg-white border-t border-[#F0F0F0]">
+      <section className="py-16 md:py-32 bg-white border-t border-[#F0F0F0]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-start">
             <AnimatedSection direction="left">
               <span className="text-xs font-semibold text-amber-600 uppercase tracking-widest mb-4 block">Reconhece isso?</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F] leading-tight mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F] leading-tight mb-6">
                 Esses problemas<br />
                 <span className="text-[#F59E0B]">te parecem</span><br />
                 familiares?
@@ -306,12 +306,12 @@ export default function ErpPage() {
       </section>
 
       {/* SOLUÇÃO */}
-      <section className="py-32 bg-[#F5F5F7] relative overflow-hidden">
+      <section className="py-16 md:py-32 bg-[#F5F5F7] relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <AnimatedSection direction="left">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">A solução</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F] leading-tight mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F] leading-tight mb-6">
                 Um sistema ajustado<br />à sua{' '}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#3B82F6]">operação</span>
               </h2>
@@ -343,12 +343,12 @@ export default function ErpPage() {
       </section>
 
       {/* FUNCIONALIDADES — BENTO GRID */}
-      <section id="funcionalidades" className="py-32 bg-white">
+      <section id="funcionalidades" className="py-16 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="mb-16">
+            <div className="mb-10 md:mb-16">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">Módulos</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F] mb-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F] mb-4">
                 O que o GR9 Loja<br />faz pela sua operação
               </h2>
               <p className="text-[#6E6E73] text-lg max-w-lg">
@@ -413,12 +413,12 @@ export default function ErpPage() {
       </section>
 
       {/* POR QUE ESCOLHER A GR9 */}
-      <section className="py-32 bg-[#F5F5F7]">
+      <section className="py-16 md:py-32 bg-[#F5F5F7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-16">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">Diferenciais</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F]">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F]">
                 Por que as lojas escolhem a GR9
               </h2>
             </div>
@@ -427,7 +427,7 @@ export default function ErpPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#E5E5EA] bg-white border border-[#E5E5EA] rounded-3xl overflow-hidden shadow-sm">
             {diferenciais.map((d, i) => (
               <AnimatedSection key={d.titulo} delay={i * 0.1}>
-                <div className="p-10">
+                <div className="p-6 md:p-10">
                   <div className="w-12 h-12 bg-[#EEF2FF] rounded-2xl flex items-center justify-center text-[#2563EB] mb-5">{d.icon}</div>
                   <h3 className="text-[#1D1D1F] font-bold text-xl mb-3">{d.titulo}</h3>
                   <p className="text-[#6E6E73] leading-relaxed text-sm">{d.descricao}</p>
@@ -439,18 +439,18 @@ export default function ErpPage() {
       </section>
 
       {/* COMO FUNCIONA */}
-      <section className="py-32 bg-white border-t border-[#F0F0F0]">
+      <section className="py-16 md:py-32 bg-white border-t border-[#F0F0F0]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-16">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">Processo</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F]">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F]">
                 Da contratação à operação<br />em 3 passos
               </h2>
             </div>
           </AnimatedSection>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative">
             <div className="hidden md:block absolute top-9 left-[calc(16.67%+2rem)] right-[calc(16.67%+2rem)] h-px bg-[#E5E5EA]" aria-hidden="true" />
             {passos.map((passo, i) => (
               <AnimatedSection key={passo.titulo} delay={i * 0.15}>
@@ -468,11 +468,11 @@ export default function ErpPage() {
       </section>
 
       {/* DARK CTA */}
-      <section className="py-32 bg-[#0F172A]">
+      <section className="py-16 md:py-32 bg-[#0F172A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection>
             <p className="text-xs font-semibold text-[#F59E0B] uppercase tracking-widest mb-6">Vamos conversar?</p>
-            <h2 className="text-5xl md:text-6xl font-black text-white leading-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
               Pronto para organizar<br />sua operação?
             </h2>
             <p className="text-[#94A3B8] text-xl mb-10 max-w-xl mx-auto leading-relaxed">
@@ -492,12 +492,12 @@ export default function ErpPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-32 bg-white">
+      <section className="py-16 md:py-32 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="text-center mb-16">
+            <div className="text-center mb-10 md:mb-16">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">FAQ</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F]">Dúvidas frequentes</h2>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F]">Dúvidas frequentes</h2>
             </div>
           </AnimatedSection>
           <FAQAccordion items={faqs} />
@@ -505,12 +505,12 @@ export default function ErpPage() {
       </section>
 
       {/* FORMULÁRIO */}
-      <section id="contato" className="py-32 bg-[#F5F5F7]">
+      <section id="contato" className="py-16 md:py-32 bg-[#F5F5F7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <AnimatedSection direction="left">
               <span className="text-xs font-semibold text-amber-600 uppercase tracking-widest mb-4 block">Solicite agora</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F] mb-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F] mb-4">
                 Solicite sua<br />demonstração
               </h2>
               <p className="text-[#6E6E73] text-lg leading-relaxed mb-10">

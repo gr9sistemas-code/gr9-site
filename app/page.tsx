@@ -48,7 +48,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-grid-pattern" />
         <div className="absolute top-0 left-0 right-0 h-[65%] bg-gradient-to-b from-[#EEF2FF]/70 to-transparent" />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             {/* Left */}
             <div className="lg:col-span-7">
@@ -60,7 +60,7 @@ export default function HomePage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.1}>
-                <h1 className="text-6xl md:text-7xl lg:text-8xl font-black tracking-tight text-[#1D1D1F] leading-[0.92] mb-8">
+                <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-[#1D1D1F] leading-[0.92] mb-8">
                   Três décadas<br />
                   fazendo<br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2563EB] to-[#3B82F6]">
@@ -76,7 +76,7 @@ export default function HomePage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.3}>
-                <div className="flex flex-col sm:flex-row gap-3 mb-14">
+                <div className="flex flex-col sm:flex-row gap-3 mb-8 md:mb-14">
                   <Link
                     href="/erp"
                     className="inline-flex items-center justify-center gap-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-bold px-7 py-3.5 rounded-full transition-all duration-200 hover:scale-105 shadow-lg shadow-blue-500/20 text-sm"
@@ -96,7 +96,7 @@ export default function HomePage() {
               </AnimatedSection>
 
               <AnimatedSection delay={0.4}>
-                <div className="flex items-center gap-8 pt-8 border-t border-[#E5E5EA]">
+                <div className="flex items-center gap-4 sm:gap-8 pt-8 border-t border-[#E5E5EA]">
                   <div>
                     <p className="text-3xl font-black text-[#1D1D1F]">30+</p>
                     <p className="text-xs text-[#6E6E73] mt-0.5 font-medium uppercase tracking-wide">anos de mercado</p>
@@ -124,12 +124,12 @@ export default function HomePage() {
       </section>
 
       {/* SOBRE A EMPRESA */}
-      <section className="py-32 bg-white border-t border-[#F0F0F0]">
+      <section className="py-16 md:py-32 bg-white border-t border-[#F0F0F0]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-20 items-start">
             <AnimatedSection direction="left">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">Nossa história</span>
-              <h2 className="text-5xl md:text-6xl font-black text-[#1D1D1F] leading-tight mb-8">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-[#1D1D1F] leading-tight mb-8">
                 Quem está<br />por trás do<br />
                 <span className="text-[#2563EB]">GR9 Loja</span>
               </h2>
@@ -158,12 +158,12 @@ export default function HomePage() {
       </section>
 
       {/* NOSSO PRODUTO */}
-      <section className="py-32 bg-[#F5F5F7]">
+      <section className="py-16 md:py-32 bg-[#F5F5F7]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
             <AnimatedSection direction="left">
               <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">Nosso produto</span>
-              <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F] leading-tight mb-6">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F] leading-tight mb-6">
                 ERP especializado<br />para o setor têxtil
               </h2>
               <p className="text-[#6E6E73] text-lg leading-relaxed mb-8">
@@ -200,11 +200,11 @@ export default function HomePage() {
       </section>
 
       {/* DARK CTA */}
-      <section className="py-32 bg-[#0F172A]">
+      <section className="py-16 md:py-32 bg-[#0F172A]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection>
             <p className="text-xs font-semibold text-[#60A5FA] uppercase tracking-widest mb-6">Dê o próximo passo</p>
-            <h2 className="text-5xl md:text-6xl font-black text-white leading-tight mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
               Pronto para ver<br />como funciona?
             </h2>
             <p className="text-[#94A3B8] text-xl mb-10 max-w-xl mx-auto leading-relaxed">
@@ -224,13 +224,13 @@ export default function HomePage() {
       </section>
 
       {/* FORMULÁRIO DE CONTATO */}
-      <section id="contato" className="py-32 bg-white">
+      <section id="contato" className="py-16 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto">
             <AnimatedSection>
               <div className="text-center mb-12">
                 <span className="text-xs font-semibold text-[#2563EB] uppercase tracking-widest mb-4 block">Fale conosco</span>
-                <h2 className="text-4xl md:text-5xl font-black text-[#1D1D1F] mb-4">Entre em contato</h2>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#1D1D1F] mb-4">Entre em contato</h2>
                 <p className="text-[#6E6E73] text-lg">
                   Tire suas dúvidas ou agende uma demonstração. Nossa equipe responde em até 1 dia útil.
                 </p>

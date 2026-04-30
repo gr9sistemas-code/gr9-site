@@ -14,7 +14,7 @@ export default function ObrigadoPage() {
       {/* Pixels de conversão — configure NEXT_PUBLIC_GOOGLE_ADS_ID, NEXT_PUBLIC_GOOGLE_ADS_CONVERSION e NEXT_PUBLIC_META_PIXEL_ID no .env.local */}
       <ConversionScripts />
 
-      <section className="min-h-screen flex items-center justify-center py-24 px-4">
+      <section className="min-h-screen flex items-center justify-center py-24 px-4 bg-[#0F172A]">
         <div className="max-w-xl w-full text-center">
           {/* Ícone de sucesso */}
           <div className="w-24 h-24 bg-green-500/10 border-2 border-green-500/30 rounded-full flex items-center justify-center mx-auto mb-8">
